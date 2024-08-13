@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block title %} homepage {% endblock %}
+
+{% block body %}
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active c-item">
+      <img src="https://images.unsplash.com/photo-1507680434567-5739c80be1ac?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Unraveling Elegance:</h5>
+        <p>Where Threads Tell Tales of Timeless Style.</p>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="https://images.unsplash.com/photo-1610384104075-e05c8cf200c3?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Beyond Fashion, Beyond Fabric:</h5>
+        <p>Weaving Narratives, Tailoring Futures.</p>
+      </div>
+    </div>
+    <div class="carousel-item c-item">
+      <img src="https://images.unsplash.com/photo-1559582798-678dfc71ccd8?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Chase the Horizon in Style:</h5>
+        <p>Adventure awaits, and our clothing is your passport to a world where fashion meets the thrill of the unknown.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class = "highlights">
+  <h1 style = "text-align: center;"> We Offer</h1>
+    <table> 
+      <thead>
+        <th> 
+          <div class="card align" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1622497170185-5d668f816a56?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top " alt="...">
+            <div class="card-body">
+              <p class="card-text">Experience the promise of fabricated luxury as we redefine comfort and opulence, ensuring every thread reflects our dedication to excellence.</p>
+            </div>
+        </th>
+
+        <th> 
+          <div class="card align" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top " alt="...">
+            <div class="card-body">
+              <p class="card-text">Weave dreams into every thread, creating textiles that tell stories of elegance and sophistication</p>
+              
+            </div>
+        </div>
+        </th>
+
+        <th>
+          <div class="card w-75 mb-3 align">
+            <img src="https://images.unsplash.com/photo-1506152983158-b4a74a01c721?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top " alt="...">
+            <div class="card-body">
+              <p class="card-text">Our promise echoes in every threaded whisper of elegance, inviting you to unleash your imagination and wrap yourself in the fabric of sophistication.</p>
+              
+            </div>
+          </div>
+        </th>
+      </thead>
+
+      <tbody>
+        <tr> 
+           
+      </tr>
+
+      <tr> </tr>
+      <tr> </tr>
+      </tbody>
+    </table>
+
+
+    <div class="card text-center mb-3 mx-auto" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Beyond Boundaries </h5>
+        <p class="card-text">Step into a realm of limitless possibilities with clothing that transcends trends and embraces individuality.</p>
+        <a href="/buy" class="btn btn-primary btn-lg">BUY</a>
+      </div>
+    </div>
+  
+        
+</div>
+
+
+{% endblock %}
